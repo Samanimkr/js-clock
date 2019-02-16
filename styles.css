@@ -21,11 +21,11 @@ html, body {
 
 .clock {
     flex: 1;
-    height: 50vh;
-    max-width: 50vh;
+    height: 50vmin;
+    max-width: 50vmin;
     position: relative;
     border: 1px solid #452c33;
-    border-radius: 25vh;
+    border-radius: 25vmin;
 }
 
 .horizontal_indicators {
