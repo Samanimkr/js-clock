@@ -2,7 +2,6 @@ const secondsHand = document.getElementsByClassName('seconds_hand')[0];
 const minutesHand = document.getElementsByClassName('minutes_hand')[0];
 const hoursHand = document.getElementsByClassName('hours_hand')[0];
 
-// var num = 6;
 let syncing = true;
 setInterval(() => {
     const d = new Date();
