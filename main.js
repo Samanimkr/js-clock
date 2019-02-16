@@ -23,7 +23,7 @@ setInterval(() => {
     if (syncing || mins === 0) {
         hoursHand.style.WebkitTransitionDuration = `${syncing || hrs===0 ? 0 : 0.2}s`;
         hoursHand.style.transformOrigin = "bottom center";
-        hoursHand.style.webkitTransform = `rotate(${hrs*6}deg)`;
+        hoursHand.style.webkitTransform = `rotate(${hrs*30}deg)`;
     }
 
     if (syncing) syncing = false;
